@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LMSGI Práctica 2.3 | Formulario</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="img/favicon.png">
+</head>
+<body>
+	<header>
+		<h1>LMSGI - Práctica 1 - Formulario</h1>
+	</header>
+
+	<br>
+
+	<nav>
+		<h3>Mapa Web</h3>
+		<a href="index.html">Home |</a>
+		<a href="listado.html">Listado |</a>
+		<a href="formulario.html">Formulario |</a>
+		<a href="how_to.html">How to |</a>
+		<a href="https://google.com"><img width="67px" height="22px" src="https://duckduckgo.com/i/574c3e6a.png"></a>
+	</nav>		
+
+	<h1>Formulario</h1>
+	<form method="POST" action="gestion.php" enctype="multipart/form-data">
+		<fieldset>
+			<legend>Datos personales</legend>
+				<label for="nombre">Nombre:</label><input type="text" name="nombre"><br><br>
+				<label for="apellidos">Apellidos:</label><input type="text" name="apellidos" placeholder="Apellidos"><br><br>
+				<label for="email">E-mail:</label><input type="text" name="email" pattern="[a-z0-9_-]+@[a-z0-9_-]+.[a-z]{2,4}" placeholder="usuario@email.com"><br><br>
+				<label for="telefono">Telefono:</label><input type="tel" name="telefono"><br><br>
+				<label for="dni">DNI:</label><input type="text" name="dni" pattern="[0-9]{8}[A-Z]{1}" title="DNI">
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Otros datos</legend>
+			<input type="radio" name="genero" value="hombre" checked="checked">Hombre
+			<input type="radio" name="genero" value="mujer">Mujer
+			<br><br>
+			<input type="checkbox" name="musica">Musica
+			<input type="checkbox" name="juegos">Juegos
+			<br><br>
+			<label for="SO">SO</label>
+			<select name="SO">
+				<option selected>-- selecciona --</option>
+				<option value="windows">Windows</option>
+				<option value="linux">Linux</option>
+				<option value="macos">MacOS</option>
+			</select>
+			<br><br>
+			<label for="archivo">Subir archivo:</label><input type="file" name="archivo" value="seleccionar archivo" accept="image/*">
+			<input type="file" name="archivo2" accept="application/pdf" multiple>
+			<br><br>
+			<textarea name="textarea" placeholder="Observaciones" cols="108" rows="10"></textarea>
+			<br><br>
+			<input type="submit" name="enviar" value="Enviar">
+			<input type="reset" name="reset">
+		</fieldset>
+	</form>
+	<footer>
+		<p>Copyright: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis</p>
+		<p>Nombre de Alumno: David Pérez Ruiz</p>
+		<p>Número de práctica: 2.3</p>
+	</footer>
+</body>
