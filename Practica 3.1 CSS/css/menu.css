@@ -1,0 +1,27 @@
+*.menu a{
+	float: left;
+	margin-top: 3px;
+	margin-left: 11px;
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+	border: 1px;
+	border: solid;
+	border-radius: 10px;
+	border-color: orange;
+}
+*.menu a:hover{
+	background-color: orange;
+}
+.menu{
+	position: fixed;
+	border: solid;
+	border-radius: 10px;
+	border-width: 4px;
+	border-color: orange;
+	float: left;
+	width: 250px;
+	height: 50px;
+	background-color: white;
+
+}

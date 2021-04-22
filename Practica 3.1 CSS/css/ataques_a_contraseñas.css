@@ -1,0 +1,89 @@
+body {
+	background-image: url("../img/fondo.png");
+	background-size: 100em;
+	background-repeat: repeat-x;
+	font-family: arial;
+	
+}
+main {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	word-break: break-all;
+}
+h1 {
+	font-size: 20px;
+	font-weight: normal;
+}
+div.numero span{
+	font-size: 40px;
+}
+div img{
+	margin-top: 30px;
+	width: 100%;
+}
+p {
+	margin: auto;
+	width: 90%;
+	font-size: 20px;
+}
+p span {
+	font-weight: bold;
+	color: black;
+}
+ul{
+	margin: auto;
+	margin-top: 20px;
+	width: 88%;
+}
+li{
+	font-size: 19px;
+}
+.caja_principal {
+	height: 1030px;
+	width: 100%;
+}
+.caja_texto {
+	color: 	#3a3d3d;
+	margin: auto;
+	margin-top: 70px;
+	width: 65%;
+	height: 90%;
+	background-color: #f7e3cc;
+	border: solid;
+	border-color: orange;
+}
+.caja_imagen {
+	height: 400px;
+}
+.numero {
+	float: left;
+	font-size: 24px;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: orange;
+	margin-top: -40px;
+	margin-left: 43.5%;	
+}
+.titulo_caja{
+	margin: auto;
+	margin-top: 40px;
+	width: 50%;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	padding-bottom: 40px;
+	color: black;
+
+}
+.resaltar{
+	font-weight: bold;
+	color: #D51E3A;
+}
+.separador{
+	height: 50px;
+}

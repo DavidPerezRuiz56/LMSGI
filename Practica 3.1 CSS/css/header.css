@@ -1,0 +1,23 @@
+header {
+	width: 100%;
+	margin: auto;
+	margin-top: 30px;
+	font-size: 20px;
+}
+
+.titulo_cabecera1{
+	float: left;
+	color: #FF8700;
+	font-style: italic;
+	font-weight: bold;
+;
+}
+.titulo_cabecera2 {
+	float: right;
+	font-style: italic;
+	font-weight: bold;
+	margin-right: 30px;
+}
+.separador {
+	padding: 40px;
+}
